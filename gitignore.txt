@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local statistics file (optional, if you want to reset statistics on deployment)
+statistics.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Replit specific files (not needed on GitHub)
+.replit
+replit.nix
+pyproject.toml
+poetry.lock
+uv.lock
+
+# Editor specific files
+.vscode/
+.idea/
